@@ -24,11 +24,14 @@ public class SpringJenkinsApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
+		/*
 		Student st1 = studentRepository.save(new Student("Tairou", "Diallo", "Hann-Mariste 2", "779440310"));
 		Student st2 = studentRepository.save(new Student("Abdoulay", "Samba", "Bel-Air", "759440310"));
 		Student st3 = studentRepository.save(new Student("Seydina", "Diouf", "Ouakam", "769440310"));
 		Student st4 = studentRepository.save(new Student("Awa", "Ndao", "Mbao", "789440310"));
 		Student st5 = studentRepository.save(new Student("Mame awa", "Niang", "Sacré coeur", "77'440310"));
 
+
+		 */
 	}
 }
