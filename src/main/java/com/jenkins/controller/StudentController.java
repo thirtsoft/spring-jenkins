@@ -35,4 +35,11 @@ public class StudentController {
         List<Student> studentList = studentService.findAllStudent();
         return new ResponseEntity<>(studentList, HttpStatus.OK);
     }
+
+    @DeleteMapping(value = "/deletestudent/{studentId}")
+    public ResponseEntity<?> deleteStudentById(@PathVariable Long studentId) {
+        studentService.deleteStudent(studentId);
+        return ResponseEntity.ok().build();
+    }
+
 }

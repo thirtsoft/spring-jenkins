@@ -26,4 +26,8 @@ public class StudentService {
     public List<Student> findAllStudent() {
         return studentRepository.findAll();
     }
+
+    public void deleteStudent(Long studentId) {
+        studentRepository.deleteById(studentId);
+    }
 }
